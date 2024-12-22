@@ -1,0 +1,30 @@
+<Project Sdk="Microsoft.NET.Sdk">
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <GenerateDocumentationFile>true</GenerateDocumentationFile>
+
+        <PackageId>ItsUp.XmlRpcClient</PackageId>
+        <Authors>Mikael Jagekrans</Authors>
+        <Description>XmlRpcClient is an XML-RPC client for F#.</Description>
+        <PackageLicenseExpression>MIT</PackageLicenseExpression>
+        <PackageProjectUrl>https://github.com/MickeJagekrans/XmlRpcClient</PackageProjectUrl>
+        <RepositoryUrl>https://github.com/MickeJagekrans/XmlRpcClient</RepositoryUrl>
+        <RepositoryType>git</RepositoryType>
+        <PackageTags>xmlrpc;xml;rpc;client;fsharp;f#</PackageTags>
+
+        <PublishRepositoryUrl>true</PublishRepositoryUrl>
+        <EmbedUntrackedSources>true</EmbedUntrackedSources>
+        <IncludeSymbols>true</IncludeSymbols>
+        <SymbolPackageFormat>snupkg</SymbolPackageFormat>
+    </PropertyGroup>
+
+    <ItemGroup>
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="Microsoft.SourceLink.GitHub" Version="8.0.0">
+            <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
+            <PrivateAssets>all</PrivateAssets>
+        </PackageReference>
+    </ItemGroup>
+</Project>
